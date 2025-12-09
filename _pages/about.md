@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: # <a href='https://sman1bantul.sch.id'>Working at SMA Negeri 1 Bantul</a>. Bantul, Yogyakarta. hanan.dimas44@gmail.com. We live in nature so be kind to the environment. Etc.
 
 profile:
   align: right
@@ -31,36 +31,27 @@ Website ini adalah tempat saya mendokumentasikan perjalanan saya sebagai pembela
 
 Di sini teman-teman bisa menemukan berbagai resources:
 
-<div class="row mt-4">
-    <div class="col-sm-4 p-3">
-        <div class="card h-100 z-depth-1">
-            <div class="card-body text-center">
-                <i class="fas fa-book-open fa-3x mb-3 text-success"></i>
-                <h5 class="card-title">Materi & Catatan</h5>
-                <p class="card-text">Rangkuman materi biologi SMA dan kuliah.</p>
-                <a href="{{ '/teaching/' | relative_url }}" class="btn btn-sm btn-outline-success">Baca Materi</a>
-            </div>
-        </div>
+<div class="row mt-4 mb-4">
+    <div class="col-sm-4 p-3 text-center">
+        <a href="{{ '/teaching/' | relative_url }}" class="text-decoration-none text-reset">
+            <i class="fas fa-book-open fa-3x mb-3" style="color: var(--global-theme-color)"></i>
+            <h5 class="font-weight-bold">Materi & Catatan</h5>
+            <p>Rangkuman materi biologi SMA dan kuliah.</p>
+        </a>
     </div>
-    <div class="col-sm-4 p-3">
-        <div class="card h-100 z-depth-1">
-            <div class="card-body text-center">
-                <i class="fas fa-flask fa-3x mb-3 text-info"></i>
-                <h5 class="card-title">Proyek & Lab</h5>
-                <p class="card-text">Dokumentasi praktikum dan eksplorasi sains.</p>
-                <a href="{{ '/projects/' | relative_url }}" class="btn btn-sm btn-outline-info">Lihat Proyek</a>
-            </div>
-        </div>
+    <div class="col-sm-4 p-3 text-center">
+        <a href="{{ '/projects/' | relative_url }}" class="text-decoration-none text-reset">
+            <i class="fas fa-flask fa-3x mb-3" style="color: var(--global-theme-color)"></i>
+            <h5 class="font-weight-bold">Proyek & Lab</h5>
+            <p>Dokumentasi praktikum dan eksplorasi sains.</p>
+        </a>
     </div>
-    <div class="col-sm-4 p-3">
-        <div class="card h-100 z-depth-1">
-            <div class="card-body text-center">
-                <i class="fas fa-microscope fa-3x mb-3 text-warning"></i>
-                <h5 class="card-title">Tentang Saya</h5>
-                <p class="card-text">Perjalanan dan portofolio saya.</p>
-                <a href="{{ '/cv/' | relative_url }}" class="btn btn-sm btn-outline-warning">Lihat Profil</a>
-            </div>
-        </div>
+    <div class="col-sm-4 p-3 text-center">
+        <a href="{{ '/cv/' | relative_url }}" class="text-decoration-none text-reset">
+            <i class="fas fa-user-graduate fa-3x mb-3" style="color: var(--global-theme-color)"></i>
+            <h5 class="font-weight-bold">Tentang Saya</h5>
+            <p>Perjalanan dan portofolio saya.</p>
+        </a>
     </div>
 </div>
 
