@@ -32,9 +32,15 @@ $grey-900: #212529;
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
+// Soft Theme Colors (Custom)
+$soft-bg-color: #f4f9f9 !default; // Very light cyan/greyish
+$soft-text-color: #2c3e50 !default; // Dark blue-grey
+$soft-theme-color: #00897b !default; // Teal
+
+
 // Theme colors
 
-$code-bg-color-light: rgba($purple-color, 0.05);
+$code-bg-color-light: rgba($soft-theme-color, 0.05);
 $code-bg-color-dark: #2c3237 !default;
 
 // Font awesome location
