@@ -9,9 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Yogyakarta, Indonesia</p>
+
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +26,45 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Selamat datang di website **Belajar Biologi**!
+Website ini adalah tempat saya mendokumentasikan perjalanan saya sebagai pembelajar biologi seumur hidup.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Di sini teman-teman bisa menemukan berbagai resources:
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<div class="row mt-4">
+    <div class="col-sm-4 p-3">
+        <div class="card h-100 z-depth-1">
+            <div class="card-body text-center">
+                <i class="fas fa-book-open fa-3x mb-3 text-success"></i>
+                <h5 class="card-title">Materi & Catatan</h5>
+                <p class="card-text">Rangkuman materi biologi SMA dan kuliah.</p>
+                <a href="{{ '/teaching/' | relative_url }}" class="btn btn-sm btn-outline-success">Baca Materi</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4 p-3">
+        <div class="card h-100 z-depth-1">
+            <div class="card-body text-center">
+                <i class="fas fa-flask fa-3x mb-3 text-info"></i>
+                <h5 class="card-title">Proyek & Lab</h5>
+                <p class="card-text">Dokumentasi praktikum dan eksplorasi sains.</p>
+                <a href="{{ '/projects/' | relative_url }}" class="btn btn-sm btn-outline-info">Lihat Proyek</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4 p-3">
+        <div class="card h-100 z-depth-1">
+            <div class="card-body text-center">
+                <i class="fas fa-microscope fa-3x mb-3 text-warning"></i>
+                <h5 class="card-title">Tentang Saya</h5>
+                <p class="card-text">Perjalanan dan portofolio saya.</p>
+                <a href="{{ '/cv/' | relative_url }}" class="btn btn-sm btn-outline-warning">Lihat Profil</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="mt-4">
+    <p>Mari belajar dan bereksplorasi bersama!</p>
+</div>
+
